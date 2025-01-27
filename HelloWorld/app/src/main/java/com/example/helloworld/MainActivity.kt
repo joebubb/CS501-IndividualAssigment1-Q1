@@ -32,8 +32,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        val size = 32
-
         setContent {
             Greeting(name="Joe")
         }
